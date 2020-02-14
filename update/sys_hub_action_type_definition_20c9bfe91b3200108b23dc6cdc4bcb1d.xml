@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>learning_test_action</internal_name>
+        <label_cache>[{"name":"{{action.input_variable}}","label":"action➛Input Variable","type":"action","ref":""},{"name":"{{action.todays_date}}","label":"action➛Todays Date","type":"action","ref":""},{"name":"{{action.something_you_want_to_tell_us}}","label":"action➛Something you want to tell us","type":"action","ref":""},{"name":"{{action.to_who_should_the_email_be_send_}}","label":"action➛To who should the email be send?","type":"action","ref":""},{"name":"{{step[34995620-2727-4e5b-b02a-6b6f27977260].email}}","label":"step➛Email step➛Email","type":"step","ref":"sys_email"}]</label_cache>
+        <latest_snapshot>b13eb3ed1b3200108b23dc6cdc4bcb87</latest_snapshot>
+        <master_snapshot>462c7b6d1b3200108b23dc6cdc4bcb00</master_snapshot>
+        <name>learning_test email</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 13:53:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20c9bfe91b3200108b23dc6cdc4bcb1d</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>learning_test email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_20c9bfe91b3200108b23dc6cdc4bcb1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=20c9bfe91b3200108b23dc6cdc4bcb1d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=20c9bfe91b3200108b23dc6cdc4bcb1d"/>
+    <sys_element_mapping action="delete_multiple" query="id=20c9bfe91b3200108b23dc6cdc4bcb1d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>20c9bfe91b3200108b23dc6cdc4bcb1d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>cb7b336d1b3200108b23dc6cdc4bcbca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_20c9bfe91b3200108b23dc6cdc4bcb1d</table>
+        <value>{{step[34995620-2727-4e5b-b02a-6b6f27977260].email}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT IN8f7b336d1b3200108b23dc6cdc4bcbb8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</action>
+        <cid>34995620-2727-4e5b-b02a-6b6f27977260</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Email step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Email">4c5f36a37f0b32005f58108c3ffa9126</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>8f7b336d1b3200108b23dc6cdc4bcbb8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f7b336d1b3200108b23dc6cdc4bcbb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f7b336d1b3200108b23dc6cdc4bcbb8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:01:42</sys_created_on>
+        <sys_id>60bbf36d1b3200108b23dc6cdc4bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <value/>
+        <variable display_value="">40cf3ae37f0b32005f58108c3ffa91f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f7b336d1b3200108b23dc6cdc4bcbb8</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>c77b336d1b3200108b23dc6cdc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <value/>
+        <variable display_value="">8ef44f277f0b32005f58108c3ffa91f7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f7b336d1b3200108b23dc6cdc4bcbb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>8f7b336d1b3200108b23dc6cdc4bcbb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>cf7b336d1b3200108b23dc6cdc4bcbbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>&lt;p&gt;Hello, todays date is: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;action➛Todays Date&lt;button id="transform_function_facade_4153e250-112e-44e9-8a6d-b9598878332f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>8f7b336d1b3200108b23dc6cdc4bcbb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:02:29</sys_created_on>
+        <sys_id>88eb776d1b3200108b23dc6cdc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.something_you_want_to_tell_us}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>8f7b336d1b3200108b23dc6cdc4bcbb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:01:42</sys_created_on>
+        <sys_id>ecbbf36d1b3200108b23dc6cdc4bcb91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.to_who_should_the_email_be_send_}} </value>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT IN437b336d1b3200108b23dc6cdc4bcbb2,67cc33ad1b3200108b23dc6cdc4bcba8,af9dbbad1b3200108b23dc6cdc4bcbda"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a3fbc96a-5153-4e6a-a7c5-b456e90d17d4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>something_you_want_to_tell_us</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Something you want to tell us</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</model>
+        <model_id>20c9bfe91b3200108b23dc6cdc4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>437b336d1b3200108b23dc6cdc4bcbb2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:01:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date,uiTypeLabel=Date,uiUniqueId=fce827df-a0f6-4ec8-9a38-764020abf6ce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>todays_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>Todays Date</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</model>
+        <model_id>20c9bfe91b3200108b23dc6cdc4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:06:32</sys_created_on>
+        <sys_id>67cc33ad1b3200108b23dc6cdc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:06:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c5f3e26d-ecfd-44d5-8cfd-51007bc3d3ae</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to_who_should_the_email_be_send_</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>To who should the email be send?</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</model>
+        <model_id>20c9bfe91b3200108b23dc6cdc4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:10:05</sys_created_on>
+        <sys_id>af9dbbad1b3200108b23dc6cdc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:10:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT INcb7b336d1b3200108b23dc6cdc4bcbc2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=1f502fdd-ea69-4dd1-a455-70b842a78e1e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype display_value="Email" element="email" name="var__m_sys_flow_step_definition_output_4c5f36a37f0b32005f58108c3ffa9126">f4a503677f0b32005f58108c3ffa91cf</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Email</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</model>
+        <model_id>20c9bfe91b3200108b23dc6cdc4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>cb7b336d1b3200108b23dc6cdc4bcbc2</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT IN8f7b336d1b3200108b23dc6cdc4bcbb8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</action>
+        <cid>34995620-2727-4e5b-b02a-6b6f27977260</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Email step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Email">4c5f36a37f0b32005f58108c3ffa9126</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>8f7b336d1b3200108b23dc6cdc4bcbb8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f7b336d1b3200108b23dc6cdc4bcbb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f7b336d1b3200108b23dc6cdc4bcbb8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:01:42</sys_created_on>
+        <sys_id>60bbf36d1b3200108b23dc6cdc4bcb92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <value/>
+        <variable display_value="">40cf3ae37f0b32005f58108c3ffa91f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8f7b336d1b3200108b23dc6cdc4bcbb8</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>c77b336d1b3200108b23dc6cdc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <value/>
+        <variable display_value="">8ef44f277f0b32005f58108c3ffa91f7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f7b336d1b3200108b23dc6cdc4bcbb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>8f7b336d1b3200108b23dc6cdc4bcbb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>cf7b336d1b3200108b23dc6cdc4bcbbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>&lt;p&gt;Hello, todays date is: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;action➛Todays Date&lt;button id="transform_function_facade_4153e250-112e-44e9-8a6d-b9598878332f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>8f7b336d1b3200108b23dc6cdc4bcbb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:02:29</sys_created_on>
+        <sys_id>88eb776d1b3200108b23dc6cdc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.something_you_want_to_tell_us}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>8f7b336d1b3200108b23dc6cdc4bcbb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:01:42</sys_created_on>
+        <sys_id>ecbbf36d1b3200108b23dc6cdc4bcb91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.to_who_should_the_email_be_send_}} </value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT IN04eb776d1b3200108b23dc6cdc4bcb71"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>20c9bfe91b3200108b23dc6cdc4bcb1d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.todays_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:02:29</sys_created_on>
+        <sys_id>04eb776d1b3200108b23dc6cdc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:02:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4153e250-112e-44e9-8a6d-b9598878332f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT IN239dbbad1b3200108b23dc6cdc4bcbdf,477b336d1b3200108b23dc6cdc4bcbb6,6fcc33ad1b3200108b23dc6cdc4bcbac"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to_who_should_the_email_be_send_</element>
+        <help/>
+        <hint/>
+        <label>To who should the email be send?</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:10:05</sys_created_on>
+        <sys_id>239dbbad1b3200108b23dc6cdc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:10:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>something_you_want_to_tell_us</element>
+        <help/>
+        <hint/>
+        <label>Something you want to tell us</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>477b336d1b3200108b23dc6cdc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:00:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>todays_date</element>
+        <help/>
+        <hint/>
+        <label>Todays Date</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:06:32</sys_created_on>
+        <sys_id>6fcc33ad1b3200108b23dc6cdc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:06:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT INcf7b336d1b3200108b23dc6cdc4bcbc7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Email</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_20c9bfe91b3200108b23dc6cdc4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:00:46</sys_created_on>
+        <sys_id>cf7b336d1b3200108b23dc6cdc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:00:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=20c9bfe91b3200108b23dc6cdc4bcb1d^sys_idNOT IN3a2c7b6d1b3200108b23dc6cdc4bcb7a"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3a2c7b6d1b3200108b23dc6cdc4bcb7a","name":"plan"}}</plan>
+        <snapshot>252c3b6d1b3200108b23dc6cdc4bcbcd</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a2c7b6d1b3200108b23dc6cdc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:45</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>learning_test_email</internal_name>
+        <label_cache>[{"name":"{{action.input_variable}}","label":"action➛Input Variable","type":"action","ref":""},{"name":"{{action.todays_date}}","label":"action➛Todays Date","type":"action","ref":""},{"name":"{{action.something_you_want_to_tell_us}}","label":"action➛Something you want to tell us","type":"action","ref":""},{"name":"{{action.to_who_should_the_email_be_send_}}","label":"action➛To who should the email be send?","type":"action","ref":""},{"name":"{{step[34995620-2727-4e5b-b02a-6b6f27977260].email}}","label":"step➛Email step➛Email","type":"step","ref":"sys_email"}]</label_cache>
+        <master>true</master>
+        <name>learning_test email</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="learning_test email">20c9bfe91b3200108b23dc6cdc4bcb1d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>462c7b6d1b3200108b23dc6cdc4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=462c7b6d1b3200108b23dc6cdc4bcb00"/>
+    <sys_variable_value action="delete_multiple" query="document_key=462c7b6d1b3200108b23dc6cdc4bcb00"/>
+    <sys_element_mapping action="delete_multiple" query="id=462c7b6d1b3200108b23dc6cdc4bcb00"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>462c7b6d1b3200108b23dc6cdc4bcb00</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>de2c7b6d1b3200108b23dc6cdc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_462c7b6d1b3200108b23dc6cdc4bcb00</table>
+        <value>{{step[34995620-2727-4e5b-b02a-6b6f27977260].email}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT INca2c7b6d1b3200108b23dc6cdc4bcb12"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="learning_test email">462c7b6d1b3200108b23dc6cdc4bcb00</action>
+        <cid>34995620-2727-4e5b-b02a-6b6f27977260</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Email step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Email">4c5f36a37f0b32005f58108c3ffa9126</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>ca2c7b6d1b3200108b23dc6cdc4bcb12</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca2c7b6d1b3200108b23dc6cdc4bcb12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca2c7b6d1b3200108b23dc6cdc4bcb12</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>162c7b6d1b3200108b23dc6cdc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <value/>
+        <variable display_value="">8ef44f277f0b32005f58108c3ffa91f7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca2c7b6d1b3200108b23dc6cdc4bcb12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>ca2c7b6d1b3200108b23dc6cdc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>922c7b6d1b3200108b23dc6cdc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>&lt;p&gt;Hello, todays date is: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;action➛Todays Date&lt;button id="transform_function_facade_4153e250-112e-44e9-8a6d-b9598878332f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>ca2c7b6d1b3200108b23dc6cdc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>1e2c7b6d1b3200108b23dc6cdc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.something_you_want_to_tell_us}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>ca2c7b6d1b3200108b23dc6cdc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>de2c7b6d1b3200108b23dc6cdc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.to_who_should_the_email_be_send_}} </value>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT IN422c7b6d1b3200108b23dc6cdc4bcb07,4e3eb3ed1b3200108b23dc6cdc4bcbd2,716d3bad1b3200108b23dc6cdc4bcb44"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a3fbc96a-5153-4e6a-a7c5-b456e90d17d4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>something_you_want_to_tell_us</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Something you want to tell us</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="learning_test email">462c7b6d1b3200108b23dc6cdc4bcb00</model>
+        <model_id>462c7b6d1b3200108b23dc6cdc4bcb00</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>422c7b6d1b3200108b23dc6cdc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c5f3e26d-ecfd-44d5-8cfd-51007bc3d3ae</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to_who_should_the_email_be_send_</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>To who should the email be send?</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="learning_test email">462c7b6d1b3200108b23dc6cdc4bcb00</model>
+        <model_id>462c7b6d1b3200108b23dc6cdc4bcb00</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:43</sys_created_on>
+        <sys_id>4e3eb3ed1b3200108b23dc6cdc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date,uiTypeLabel=Date,uiUniqueId=fce827df-a0f6-4ec8-9a38-764020abf6ce</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>todays_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>Todays Date</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="learning_test email">462c7b6d1b3200108b23dc6cdc4bcb00</model>
+        <model_id>462c7b6d1b3200108b23dc6cdc4bcb00</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:09:09</sys_created_on>
+        <sys_id>716d3bad1b3200108b23dc6cdc4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:09:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT IN5e2c7b6d1b3200108b23dc6cdc4bcb19"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=1f502fdd-ea69-4dd1-a455-70b842a78e1e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype display_value="Email" element="email" name="var__m_sys_flow_step_definition_output_4c5f36a37f0b32005f58108c3ffa9126">f4a503677f0b32005f58108c3ffa91cf</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Email</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="learning_test email">462c7b6d1b3200108b23dc6cdc4bcb00</model>
+        <model_id>462c7b6d1b3200108b23dc6cdc4bcb00</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>5e2c7b6d1b3200108b23dc6cdc4bcb19</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT INca2c7b6d1b3200108b23dc6cdc4bcb12"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="learning_test email">462c7b6d1b3200108b23dc6cdc4bcb00</action>
+        <cid>34995620-2727-4e5b-b02a-6b6f27977260</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Email step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Email">4c5f36a37f0b32005f58108c3ffa9126</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>ca2c7b6d1b3200108b23dc6cdc4bcb12</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca2c7b6d1b3200108b23dc6cdc4bcb12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ca2c7b6d1b3200108b23dc6cdc4bcb12</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>162c7b6d1b3200108b23dc6cdc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <value/>
+        <variable display_value="">8ef44f277f0b32005f58108c3ffa91f7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca2c7b6d1b3200108b23dc6cdc4bcb12"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>ca2c7b6d1b3200108b23dc6cdc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>922c7b6d1b3200108b23dc6cdc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>&lt;p&gt;Hello, todays date is: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4153e250-112e-44e9-8a6d-b9598878332f}}"&gt;action➛Todays Date&lt;button id="transform_function_facade_4153e250-112e-44e9-8a6d-b9598878332f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subject</field>
+        <id>ca2c7b6d1b3200108b23dc6cdc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>1e2c7b6d1b3200108b23dc6cdc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.something_you_want_to_tell_us}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>ca2c7b6d1b3200108b23dc6cdc4bcb12</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>de2c7b6d1b3200108b23dc6cdc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c5f36a37f0b32005f58108c3ffa9126</table>
+        <value>{{action.to_who_should_the_email_be_send_}} </value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT IN0a3eb3ed1b3200108b23dc6cdc4bcbc5,522c7b6d1b3200108b23dc6cdc4bcb26,656d3bad1b3200108b23dc6cdc4bcb3a"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>462c7b6d1b3200108b23dc6cdc4bcb00</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.todays_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:43</sys_created_on>
+        <sys_id>0a3eb3ed1b3200108b23dc6cdc4bcbc5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4153e250-112e-44e9-8a6d-b9598878332f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>462c7b6d1b3200108b23dc6cdc4bcb00</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.todays_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>522c7b6d1b3200108b23dc6cdc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4153e250-112e-44e9-8a6d-b9598878332f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>462c7b6d1b3200108b23dc6cdc4bcb00</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.todays_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:09:08</sys_created_on>
+        <sys_id>656d3bad1b3200108b23dc6cdc4bcb3a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:09:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4153e250-112e-44e9-8a6d-b9598878332f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT IN422c7b6d1b3200108b23dc6cdc4bcb0b,b96d3bad1b3200108b23dc6cdc4bcb48,ce3eb3ed1b3200108b23dc6cdc4bcbd6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>something_you_want_to_tell_us</element>
+        <help/>
+        <hint/>
+        <label>Something you want to tell us</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>422c7b6d1b3200108b23dc6cdc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>todays_date</element>
+        <help/>
+        <hint/>
+        <label>Todays Date</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:09:09</sys_created_on>
+        <sys_id>b96d3bad1b3200108b23dc6cdc4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:09:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to_who_should_the_email_be_send_</element>
+        <help/>
+        <hint/>
+        <label>To who should the email be send?</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:12:43</sys_created_on>
+        <sys_id>ce3eb3ed1b3200108b23dc6cdc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:12:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_462c7b6d1b3200108b23dc6cdc4bcb00^sys_idNOT IN562c7b6d1b3200108b23dc6cdc4bcb1e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>Email</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_462c7b6d1b3200108b23dc6cdc4bcb00</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-06 14:03:43</sys_created_on>
+        <sys_id>562c7b6d1b3200108b23dc6cdc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-06 14:03:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
